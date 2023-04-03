@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - CafeWeb</title>
+    <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="stylesheet" href="menu.css">
+    <script src="cafeweb.js" defer></script>
+    <link rel="shortcut icon" href="images/coffeelg.png">
+</head>
+<body>
+    <!-- header section starts -->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/coffeelg.png" alt="">
+        </a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#menu">Menu</a>
+            <a href="index.html#products">Products</a>
+            <a href="index.html#review">Review</a>
+            <a href="index.html#contact">Contact</a>
+            <a href="index.html#blogs">Blogs</a>
+            <a href="others.html">Others</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="Search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart-items-container"> 
+            <h2 class="cart-title">Your Cart</h2>
+
+            <!-- content -->
+            <div class="cart-content">
+                
+                <div class="cart-box">
+                    <img src="images/capuchino.jpg" alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-product-title">Capuchino</div>
+                        <div class="cart-price">$5.50</div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div>
+                    <!-- REMOVE CART -->
+                    <i class="fa-solid fa-trash cart-remove"></i>
+                </div>
+
+                <div class="cart-box">
+                    <img src="images/banh-pana-cotta.jpg" alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-product-title">Pana Cotta</div>
+                        <div class="cart-price">$3.30</div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div>
+                    <!-- REMOVE CART -->
+                    <i class="fa-solid fa-trash cart-remove"></i>
+                </div>
+
+                <div class="cart-box">
+                    <img src="images/kem-gelato.jpg" alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-product-title">Gelato</div>
+                        <div class="cart-price">$3.20</div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div>
+                    <!-- REMOVE CART -->
+                    <i class="fa-solid fa-trash cart-remove"></i>
+                </div>
+            </div>
+
+            <!-- TOTAL -->
+            <div class="total">
+                <div class="total-title">Total: </div>
+                <div class="total-price">$0.00</div>
+            </div>
+            <!-- BUY BUTTON -->
+            <button type="button" class="btn-buy"><a href="info.html"> Buy Now</a></button>
+            <!-- CART CLOSE -->
+            <i class="fa-solid fa-xmark" id="cart-close"></i>
+        </div>
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh coffee in the morning</h3>
+            <p>To make fresh coffee in the morning, you can grind coffee beans to medium or medium-fine grind size. Bring filtered water to a boil, then let it sit for a minute. Pour enough water into the filter to wet it completely, and let it drain into your cup or coffee pot.</p>
+            <a href="#" class="btn">get yours now</a>
+            <h6>Open: 6 AM - 11 PM</h6>
+        </div>
+    </section>
+
+    <!-- home section ends -->
+
+
+    <!-- about section starts -->
+
+    <section class="menu" id="menu">
+        <h1 class="heading">our <span>menu</span></h1>
+
+        <!-- BOX 1 -->
+        <div class="row">
+            <div class="image">
+                <img src="images/capuchino.jpg" alt="" class="product-img">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">capuchino</h2>
+                <span class="product-price">$5.50</span>
+                <div class="buy">
+                    <button class="buy">
+                        <i class="fa-solid fa-cart-shopping add-cart"> Add</a></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+        
+        <!-- BOX 2 -->
+        <div class="row">
+            <div class="image">
+                <img src="images/cafe-cot-dua.jpg" alt="" class="product-img">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">coffee cốt dừa</h2>
+                <span class="product-price">$4.50</span>
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> add</a></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/mocha.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">mocha</h2>
+                <span class="product-price"> $4.20</span>
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> add</a></i>                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/cftrung.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">coffee trứng</h2>
+                <span class="product-price"> $2.01</span>
+                
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> add</a></i>                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/cfmuoi.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">coffee muối</h2>
+                <span class="product-price"> $2.00</span>
+               
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> add</a></i>                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/cfden.png" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">coffee đen</h2>
+                <span class="product-price"> $0.89</span>
+               
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> add</a></i>                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/sfsua.png" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">coffee sữa</h2>
+                <span class="product-price"> $1.00</span>
+               
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> add</a></i>                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/bac-siu-cafe.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">coffee bạc sỉu</h2>
+                <span class="product-price"> $1.79</span>
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> add</a></i>                    </button>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <!-- about section ends -->
+
+
+
+
+
+
+
+
+   
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+        <h3><span>Follow </span> us</h3>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+            <a href="index.html">home</a>
+            <a href="index.html#about">about</a>
+            <a href="index.html#menu">menu</a>
+            <a href="index.html#products">products</a>
+            <a href="index.html#review">review</a>
+            <a href="index.html#contact">contact</a>
+            <a href="index.html#blogs">blogs</a>
+            <a href="index.html#others">Others</a>
+        </div>
+
+        <div class="credit">created by <span>mr. linh & mr. Tân</span> | all rights reserved</div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+</body>

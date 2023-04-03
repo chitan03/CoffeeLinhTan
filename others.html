@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other Products - CafeWeb</title>
+    <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="stylesheet" href="others.css">
+    <script src="cafeweb.js" defer></script>
+    <link rel="shortcut icon" href="images/coffeelg.png">
+</head>
+<body>
+    <!-- header section starts -->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/coffeelg.png" alt="">
+        </a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="#milktea">Milk Tea</a>
+            <a href="#cream">Ice Cream</a>
+            <a href="#cake">Cake</a>
+            <a href="#tea">Tea</a>
+                    
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="Search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart-items-container"> 
+            <h2 class="cart-title">Your Cart</h2>
+
+            <!-- content -->
+            <div class="cart-content">
+                
+                <div class="cart-box">
+                    <img src="images/capuchino.jpg" alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-product-title">Capuchino</div>
+                        <div class="cart-price">$5.50</div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div>
+                    <!-- REMOVE CART -->
+                    <i class="fa-solid fa-trash cart-remove"></i>
+                </div>
+
+                <div class="cart-box">
+                    <img src="images/banh-pana-cotta.jpg" alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-product-title">Pana Cotta</div>
+                        <div class="cart-price">$3.30</div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div>
+                    <!-- REMOVE CART -->
+                    <i class="fa-solid fa-trash cart-remove"></i>
+                </div>
+
+                <div class="cart-box">
+                    <img src="images/kem-gelato.jpg" alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-product-title">Gelato</div>
+                        <div class="cart-price">$3.20</div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div>
+                    <!-- REMOVE CART -->
+                    <i class="fa-solid fa-trash cart-remove"></i>
+                </div>
+            </div>
+
+            <!-- TOTAL -->
+            <div class="total">
+                <div class="total-title">Total: </div>
+                <div class="total-price">$0.00</div>
+            </div>
+            <!-- BUY BUTTON -->
+            <button type="button" class="btn-buy"><a href="info.html"> Buy Now</a></button>
+            <!-- CART CLOSE -->
+            <i class="fa-solid fa-xmark" id="cart-close"></i>
+        </div>
+    </header>
+    <!-- header section ends -->
+
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh coffee in the morning</h3>
+            <p>To make fresh coffee in the morning, you can grind coffee beans to medium or medium-fine grind size. Bring filtered water to a boil, then let it sit for a minute. Pour enough water into the filter to wet it completely, and let it drain into your cup or coffee pot.</p>
+            <a href="#" class="btn">get yours now</a>
+            <h6>Open: 6 AM - 11 PM</h6>
+        </div>
+    </section>
+
+    <!-- home section ends -->
+
+
+    <!-- others section starts -->
+
+    <section class="others" id="milktea">
+        <h1 class="heading"> our other <span>products</span></h1>
+        <h5 class="milktea" id="milktea"> milk tea</h5>
+
+        
+        <div class="row">
+            <div class="image">
+                <img src="images/tra-sua-caramel.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">caramel</h2>
+                
+                <span class="product-price"> $4.90</span>
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> add</a></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/tra-sua-khoai-mon.jpg" alt="" class="product-img">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">trà sữa khoai môn</h2>
+                <span class="product-price"> $4.40</span>
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> add</a></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/tra-sua-matcha-dau-do.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2>matcha đậu đỏ</h2>
+                <span class="product-price"> $4.20</span>
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> Add</i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/tra-sua-suong-sao.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">sương sáo milk tea</h2>
+                <span class="product-price"> $2.21</span>
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> Add</i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/tra-sua-tran-chau-dg-den.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">trân châu đường đen</h2>
+                <span class="product-price"> $2.00</span>
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> Add</i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/tra-sua-tran-chau-trang-1.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">trân châu đường trắng</h2>
+                <span class="product-price"> $0.89</span>
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> Add</i>
+                    </button>
+                </div>
+            </div>
+        </div> 
+    
+    </section>
+
+
+    <section class="others" id="cream">
+        <h5 class="cream"> ice cream</h5>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/kem-cuon-thai-lan-5.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">kem cuộn thái lan</h2>
+                <span class="product-price"> $2.01</span>
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> Add</i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/kem-banh-trung.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">kem bánh trứng</h2>
+                <span class="product-price"> $2.10</span>
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> Add</i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/kem-gelato.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">gelato</h2>
+                <span class="product-price"> $3.20</span>
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> Add</i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/kem-mochi.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">mochi</h2>
+                <span class="product-price"> $1.29</span>
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> Add</i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/kem-dien.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">kem điên</h2>
+                <span class="product-price"> $1.79</span>
+               
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> Add</i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/kem-trai-dua.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">kem trái dừa</h2>
+                <span class="product-price"> $1.30</span>
+                
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> Add</i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </section> 
+
+
+    <section class="others" id="cake">
+        <h5 class="cake"> cake</h5>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/banh-cookies.jpg" alt="" class="product-img">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">cookies</h2>
+                <span class="product-price"> $2.20</span>
+                
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> add</a></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/banh-flan.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">flan cake</h2>
+                <span class="product-price"> $3.19</span>
+                
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> add</a></i>                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/banh-cupcake.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">cupcake</h2>
+                <span class="product-price"> $3.00</span>
+               
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> add</a></i>                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/banh-hummus-wrap.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">hummus wrap cake</h2>
+                <span class="product-price"> $2.59</span>
+               
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> add</a></i>                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/banh-macaron.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">macaron</h2>
+                <span class="product-price"> $3.19</span>
+               
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> add</a></i>                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/banh-mousse.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">mousse</h2>
+                <span class="product-price"> $2.70</span>
+                
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> add</a></i>                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/banh-tiramisu.png" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">tiramisu</h2>
+                <span class="product-price"> $3.00</span>
+               
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> add</a></i>                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/banh-pana-cotta.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">pana cotta</h2>
+                <span class="product-price"> $3.30</span>
+               
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> add</a></i>                    </button>
+                </div>
+            </div>
+        </div> 
+
+    </section>
+
+ 
+    <section class="others" id="tea">
+        <h5 class="tea"> tea</h5>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/tra-chanh.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">trà chanh</h2>
+                <span class="product-price"> $1.15</span>
+                
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> add</a></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/tra-dao.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">trà đào</h2>
+                <span class="product-price"> $1.19</span>
+                
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> add</a></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/tra-tac.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">trà tắc</h2>
+                <span class="product-price"> $1.40</span>
+               
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> add</a></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/tra-tao-bac-ha.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2 class="product-title">trà táo bạc hà</h2>
+                <span class="product-price"> $1.20</span>
+                
+                <div class="buy">
+                    <button>
+                        <i class="fa-solid fa-cart-shopping add-cart"> add</a></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- others section starts -->
+
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+        <h3><span>Follow </span> us</h3>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+            <a href="index.html">home</a>
+            <a href="index.html#about">about</a>
+            <a href="index.html#menu">menu</a>
+            <a href="index.html#products">products</a>
+            <a href="index.html#review">review</a>
+            <a href="index.html#contact">contact</a>
+            <a href="index.html#blogs">blogs</a>
+            <a href="index.html#others">Others</a>
+        </div>
+
+        <div class="credit">created by <span>mr. linh & mr.Tân</span> | all rights reserved</div>
+
+    </section>
+    <!-- footer section ends -->
+
+
+</body>
